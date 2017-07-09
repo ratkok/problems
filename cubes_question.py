@@ -40,8 +40,6 @@ print "found entries: %d" % (len(aa))
 print "end time is: %s" % (etime)
 print "Done in %d sec!" % (etime - stime)
 
-import pdb; pdb.set_trace()  # breakpoint 8756d1f8 //
-
 stime = time.time()
 print "with map start time is: %s" % (stime)
 aaa = []
