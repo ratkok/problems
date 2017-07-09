@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+''' 
+    just a first comment
+
+'''
+
 import time
 import collections
 
@@ -62,18 +67,9 @@ for a in range (n+1):
 
 etime = time.time()
 print "found entries: %d" % (len(aaa))
-# print "entries:{}".format(aa)
 print "found entries: %d" % (len(cc))
-# print "entries:{}".format(cc)
-
-#for ent in aa:
-#    if ent not in cc:
-#        print ent
 print "end time is: %s" % (etime)
 print "Done in %d sec!" % (etime - stime)
-
-obj = None
-assert_is_none(obj)
 
 stime = time.time()
 print "with map2 start time is: %s" % (stime)
@@ -94,11 +90,7 @@ for key,value in bb.items():
 
 etime = time.time()
 print "found entries: %d" % (len(aaa))
-# print "entries:{}".format(aa)
 print "found entries: %d" % (len(cc))
-# print "entries:{}".format(cc)
-
-
 print "end time is: %s" % (etime)
 print "Done in %d sec!" % (etime - stime)
 
